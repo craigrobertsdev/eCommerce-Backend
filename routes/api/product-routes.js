@@ -42,9 +42,9 @@ router.get("/:id", async (req, res) => {
         { model: Category },
         {
           model: Tag,
-          // through: {
-          //   attributes: [],
-          // },
+          through: {
+            attributes: [],
+          },
         },
       ],
     });
