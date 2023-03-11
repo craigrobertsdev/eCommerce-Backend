@@ -13,7 +13,7 @@
 
 ## Description
 
-A MySQL backend with Express API to model relationship between products, product categories and product tags.
+A MySQL backend with Express API to model relationship between products, product categories and product tags. This application uses the basic CRUD operations for each entity type.
 
 ## Installation
 
