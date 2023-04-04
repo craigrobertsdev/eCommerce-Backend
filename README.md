@@ -21,14 +21,16 @@ Run `npm i` to install dependencies.
 
 ## Usage
 
-MySQL is required to use this app. Access to the database is managed via a .env file with the following variables being accessed via connection.js:<br>
+The application is started via the command line using Node.js which can be installed from [here](https://nodejs.org/en/download).
+
+MySQL is required to use this app. Access to the database is managed via a .env file, stored in the project root, with the following variables being accessed via connection.js:<br>
 `DB_NAME`<br>
 `DB_USER`<br>
 `DB_PASSWORD`
 
 To begin, run `schema.sql` from the MySQL shell to create the database. Seed data can be added by running `npm run seed` from the project's root directory.
 
-This project doesn't have a front end so the API can be called and manipulated by using a tool such as Postman or Insomnia.
+This project doesn't have a front end so the API can be called and manipulated by using a tool such as [Postman](https://www.postman.com/downloads/) or [Insomnia](https://insomnia.rest/download).
 
 A link to a video demonstration of the app's usage can be found [here](https://drive.google.com/file/d/1e7xvrnILO7D04fB464ecfZTAx-jmGIKw/view).
 
